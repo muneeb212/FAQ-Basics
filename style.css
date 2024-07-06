@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 10px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: min-content;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 1px black ;
+    border-radius: 10px;
+    background-color: burlywood;
+    padding: 5px;
+}
+.box1{
+    /* position: absolute; */
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.btn{
+    border: none;
+    background-color: burlywood;
+}
+.box2{
+    /* position: relative; */
+    background-color: burlywood;
+    width: inherit;
+    display: none;
+}
+
